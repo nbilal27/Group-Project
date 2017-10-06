@@ -18,11 +18,6 @@ $(document).ready(function() {
            var cityName = $("#weather").text(response.name);
             var tempMain = $("<p>").text(response.main.temp);
 
-
-
-
-
-
            $("#weather").empty();
             $("#weather").text(response.name).append("  Current Temperature").append(tempMain);
 
